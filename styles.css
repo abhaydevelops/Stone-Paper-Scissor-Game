@@ -15,31 +15,59 @@ body{
 }
 .player{
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    color: crimson;
 }
 img{
-    background-color:brown ;
-    height: 250px;
-    width: 250px;
-    padding: 20px 20px;
+    height: 200px;
+    width: 200px;
 }
 
-@media only screen and (max-width: 600px)
+
+
+@media only screen and (max-width: 425px)
 {
-    .main{
+    .main
+{
     text-align: center;
     font-size: 20px;
 }
-    .players{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-    }
-    img{
-        background-color:brown ;
-        height: 50px;
-        width: 50px;
-        padding: 20px 20px;
-    }
+.players{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.player{
+    text-align: center;
+    font-size: 8px;
+    color: crimson;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+}
+@media only screen and (max-width: 768px)
+{
+    .main
+{
+    text-align: center;
+    font-size: 40px;
+}
+.players{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.player{
+    text-align: center;
+    font-size: 20px;
+    color: crimson;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
 }
