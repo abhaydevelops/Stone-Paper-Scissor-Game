@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(218, 58, 9, 0.619);
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+    text-align: center;
+    font-size: 50px;
+}
+.players{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.player{
+    text-align: center;
+    font-size: 20px;
+}
+img{
+    background-color:brown ;
+    height: 250px;
+    width: 250px;
+    padding: 20px 20px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .main{
+    text-align: center;
+    font-size: 20px;
+}
+    .players{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    img{
+        background-color:brown ;
+        height: 50px;
+        width: 50px;
+        padding: 20px 20px;
+    }
+}
