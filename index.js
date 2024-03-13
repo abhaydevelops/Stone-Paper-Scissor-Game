@@ -10,25 +10,25 @@ image2.setAttribute("src",imagsrc2);
 
 
 if(randomNumber1==randomNumber2){
-    var result=document.querySelector("h3").innerHTML="Game Draw!!🏳️";
+    var result=document.querySelector("h5").innerHTML="Game Draw!!🏳️";
 }
 else if((randomNumber1==1)&&(randomNumber2==2)){
-    var result=document.querySelector("h3").innerHTML="PLAYER 2 Wins!🏆";
+    var result=document.querySelector("h5").innerHTML="PLAYER 2 Wins!🏆";
 }
 else if((randomNumber1==1)&&(randomNumber2==3)){
-    var result=document.querySelector("h3").innerHTML="PLAYER 1 Wins!🏆";
+    var result=document.querySelector("h5").innerHTML="PLAYER 1 Wins!🏆";
 }
 else if((randomNumber1==2)&&(randomNumber2==1)){
-    var result=document.querySelector("h3").innerHTML="PLAYER 1 Wins!🏆";
+    var result=document.querySelector("h5").innerHTML="PLAYER 1 Wins!🏆";
 }
 else if((randomNumber1==2)&&(randomNumber2==3)){
-    var result=document.querySelector("h3").innerHTML="PLAYER 2 Wins!🏆";
+    var result=document.querySelector("h5").innerHTML="PLAYER 2 Wins!🏆";
 }
 else if((randomNumber1==3)&&(randomNumber2==1)){
-    var result=document.querySelector("h3").innerHTML="PLAYER 2 Wins!🏆";
+    var result=document.querySelector("h5").innerHTML="PLAYER 2 Wins!🏆";
 }
 else if((randomNumber1==3)&&(randomNumber2==2)){
-    var result=document.querySelector("h3").innerHTML="PLAYER 1 Wins!🏆";
+    var result=document.querySelector("h5").innerHTML="PLAYER 1 Wins!🏆";
 }
 
 
